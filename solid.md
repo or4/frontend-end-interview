@@ -12,9 +12,11 @@ SOLID Principles strive to reduce the change of modules to their addition and re
 
 **A module should have one, and only one, reason to change.**
 
-Example: We have a class for example Shape and we have a method that serialize Shape.
+Example: We have a class for example `Shape` and we have a method that serialize `Shape`.
 
-If we implement serialize in class Shape we break this principle. Because mechanizm of serialization can be useful for different classes for example class Person. And we should create a new class like Serializer that can apply different classes.
+If we implement `serialize` in class `Shape` we break this principle. Because mechanizm of serialization can be useful for different classes for example class `Person`. And we should create a new class like `Serializer` that can apply different classes.
+
+This logic we can apply for formatters. For example if we implement `toString` method for some class `Square` it should be better if we create class `ShapeFormatter` and implement logic in it. It will be better to support and extend this code.
 
 ## OCP: The Open Closed Principle
 
