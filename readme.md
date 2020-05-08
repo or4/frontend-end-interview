@@ -1,5 +1,9 @@
 # Prepare for an front-end interview
 
+## Сode writing principles
+
+[SOLID](./solid.md)
+
 ## Event loop
 
 [Node.js event loop](https://github.com/or4/event-loop/blob/master/src/node/articles/node.js-event-loop.md)
