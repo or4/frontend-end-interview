@@ -24,7 +24,7 @@
 
 ## Redux
 
-[Simple redux example](https://github.com/or4/simple-redux/tree/master/src/redux)
+[Simple redux implementation](https://github.com/or4/simple-redux/tree/master/src/redux)
 
 ## Reselect
 
