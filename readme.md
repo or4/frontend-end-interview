@@ -2,7 +2,7 @@
 
 ## Сode writing principles
 
-[SOLID](./solid.md)
+[DRY, KISS, YAGNI, SOLID](./code-writing-principles.md)
 
 ## Event loop
 

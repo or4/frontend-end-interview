@@ -1,10 +1,34 @@
-# About SOLID
+# Сode writing principles
+
+## DRY - Don't Repeat Yourself
+
+### A basic strategy for reducing complexity to managable units is to divide a system into pieces.
+
+### The DRY principle states that these small pieces of knowledge may only occur exactly once in your entire system.
+
+### Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+
+When you find yourself writing code that is similiar or equal to something you've written before, take a moment to think about what you're doing and don't repeat yourself.
+
+## Principle - Keep it Simple Stupid
+
+**Try to identify the following parts:**
+
+* Functionality that has an inappropriate ratio between benefit and efforts.
+* Functionality that is highly dependent on other functionality.
+* Functionality that is likely to grow in complexity.
+
+## Principle - You "Ain't Gonna Need It
+
+You do not need to write features that will not be used in the future.
+
+It's about additional work. You think this feature may be useful in the project, but it is not.
+
+## SOLID
 
 ## Firstly
 
-It's about OOP.
-
-SOLID Principles strive to reduce the change of modules to their addition and removal.
+It's about OOP. SOLID Principles strive to reduce the change of modules to their addition and removal.
 
 ## SRP: The Single Responsibility Principle
 
@@ -94,7 +118,7 @@ class CalcSquare {
 
 ## LSP: The Liskov Substitution Principle
 
-Example1: Suppose there is a base class Shape and its descendants `Circle` and Eectangle. And there is a certain function Foo (`List<Shape>` list). We believe that `List<Circle>` can be reduced to `List<Shape>`. However, it is not. Suppose, you can add any shape, for example, a rectangle. Initially, the list should contain only objects of the `Circle` class.
+Example1: Suppose there is a base class `Shape` and its descendants `Circle` and `Rectangle`. And there is a certain function `Foo` (`List<Shape>` list). We believe that `List<Circle>` can be reduced to `List<Shape>`. However, it is not. Suppose, you can add any shape, for example, a rectangle. Initially, the list should contain only objects of the `Circle` class.
 
 Example2:
 
