@@ -2,11 +2,11 @@
 
 ## DRY - Don't Repeat Yourself
 
-### A basic strategy for reducing complexity to managable units is to divide a system into pieces.
+### A basic strategy for reducing complexity to managable units is to divide a system into pieces
 
-### The DRY principle states that these small pieces of knowledge may only occur exactly once in your entire system.
+### The DRY principle states that these small pieces of knowledge may only occur exactly once in your entire system
 
-### Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+### Every piece of knowledge must have a single, unambiguous, authoritative representation within a system
 
 When you find yourself writing code that is similiar or equal to something you've written before, take a moment to think about what you're doing and don't repeat yourself.
 
@@ -26,9 +26,7 @@ It's about additional work. You think this feature may be useful in the project,
 
 ## SOLID
 
-## Firstly
-
-It's about OOP. SOLID Principles strive to reduce the change of modules to their addition and removal.
+SOLID Principles strive to reduce the change of modules to their addition and removal.
 
 ## SRP: The Single Responsibility Principle
 
@@ -118,9 +116,11 @@ class CalcSquare {
 
 ## LSP: The Liskov Substitution Principle
 
-Example1: Suppose there is a base class `Shape` and its descendants `Circle` and `Rectangle`. And there is a certain function `Foo` (`List<Shape>` list). We believe that `List<Circle>` can be reduced to `List<Shape>`. However, it is not. Suppose, you can add any shape, for example, a rectangle. Initially, the list should contain only objects of the `Circle` class.
+**Child classes should never break the parent class' type definitions.**
 
-Example2:
+The concept of this principle was introduced by Barbara Liskov in a 1987 conference keynote and later published in a paper together with Jannette Wing in 1994.
+
+**Subtypes must be substitutable for their base types.**
 
 Break principle
 
@@ -178,6 +178,8 @@ for(let i = 0; i < shapeArray.length; i++) {
 ## ISP: The Interface Segregation Principle
 
 **Make fine grained interfaces that are client specific.**
+
+**The interface-segregation principle (ISP) states that no client should be forced to depend on methods it does not use.**
 
 Break rule
 
