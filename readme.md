@@ -32,6 +32,21 @@
 
 ## Rendering / Layout
 
+[Avoid Large, Complex Layouts and Layout Thrashing](https://developers.google.com/web/fundamentals/performance/rendering/avoid-large-complex-layouts-and-layout-thrashing)
+
+[Preventing 'layout thrashing'](http://wilsonpage.co.uk/preventing-layout-thrashing/)
+
+[How browsers work](http://taligarsiel.com/Projects/howbrowserswork1.htm)
+
+[What forces layout / reflow](https://gist.github.com/paulirish/5d52fb081b3570c81e3a)
+
+[What Every Frontend Developer Should Know About Webpage Rendering](http://frontendbabel.info/articles/webpage-rendering-101/)
+
+### Animations
+
+[Investigate Animation Performance with DevTools](https://calibreapp.com/blog/investigate-animation-performance-with-devtools)
+[CSS3 Transitions: Thank God We Have A Specification!](https://www.smashingmagazine.com/2013/04/css3-transitions-thank-god-specification/)
+
 ## Web metrics (TTI, FP / FCP, FMP)
 
 [Производительность имеет значение](https://medium.com/@uleen/производительность-имеет-значение-c488c8d8ec30)
@@ -41,8 +56,6 @@
 [Grid](https://github.com/or4/css/tree/master/src/grid)
 
 [Flex](https://github.com/or4/css/tree/master/src/flex)
-
-### Animations
 
 ## Other questions
 
