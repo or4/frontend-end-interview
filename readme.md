@@ -57,6 +57,10 @@
 
 [Flex](https://github.com/or4/css/tree/master/src/flex)
 
+## Canvas
+
+[Optimizations](./canvas-optimizations.md)
+
 ## Other questions
 
 * garbage collector
